@@ -2,10 +2,25 @@
 .primary-color{
     background-color: rgb(216, 216, 216)
 }
+
 h1 {
     font-size: 36px;
     font-weight: bold;
     padding: 0px;
+}
+
+.backgrndpic{
+    background-image: url(../pictures/coding.jpg);
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    height: 929px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 .links {
@@ -82,19 +97,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-.backgrndpic{
-    background-image: url(../Pictures/coding.jpg);
-    position: relative;
-    width: 100%;
-    min-height: 100%;
-    height: 929px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    color: white;
-}
 .icon{
     height: 50px;
     width: auto;
