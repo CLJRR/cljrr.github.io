@@ -1,89 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!--Meta information-->
-    <meta charset="utf-8" /> <!-- what type of char set this doc uses-->
-    <meta name="description" content="This is my website" /> <!--Important, but keep it brief, for search engines-->
-    <meta name="keywords" content="HTML, Tutorial" /> <!--Important, but keep it brief, for search engines-->
-    <meta name="viewport" content="width=device-width, initial=scale=1.0" /><!--Control how website displays on devices-->
-    <link rel="stylesheet" href="css/style.css" /> <!-- to pull stylesheet-->
+    <meta charset="utf-8" />
+    <!-- what type of char set this doc uses-->
+    <meta name="description" content="This is my website" />
+    <!--Important, but keep it brief, for search engines-->
+    <meta name="keywords" content="HTML, Tutorial" />
+    <!--Important, but keep it brief, for search engines-->
+    <meta name="viewport" content="width=device-width, initial=scale=1.0" />
+    <!--Control how website displays on devices-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- to pull stylesheet-->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-    <title>Homepage</title>  <!--Name of browser-->
+    <title>Homepage</title>
+    <!--Name of browser-->
     <meta name="Author" content="CLJR" />
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top affix-top">
-        <div class="container-fluid">
-
-            <div class="navbar-header">
-                <img class="icon" src="pictures/CLJR2.jpg" alt="Icon">
-            </div>
-
-
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="links" href="index.html">Homepage</a>
-                </li>
-                <li>
-                    <a class="links" href="images.html">Images example</a>
-                </li>
-                <li>
-                    <a class="links" href="video.html">Video example</a>
-                </li>
-                <li>
-                    <a class="links" href="lists.html">lists example</a>
-                </li>
-                <li>
-                    <a class="links" href="table.html">Table example</a>
-                </li>
-                <li>
-                    <a class="links" href="inputs.html">Inputs example</a>
-                </li>
-                <li>
-                    <a class="links" href="iframes.html">Iframes example</a>
-                </li>
-                <li>
-                    <a class="links" href="test.html">test</a>
-                </li>
-            </ul>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <img class="icon" src="pictures/CLJR2.jpg" alt="Icon" />
         </div>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a class="links" href="index.html">Homepage</a>
+          </li>
+          <li>
+            <a class="links" href="images.html">Images example</a>
+          </li>
+          <li>
+            <a class="links" href="video.html">Video example</a>
+          </li>
+          <li>
+            <a class="links" href="lists.html">lists example</a>
+          </li>
+          <li>
+            <a class="links" href="table.html">Table example</a>
+          </li>
+          <li>
+            <a class="links" href="inputs.html">Inputs example</a>
+          </li>
+          <li>
+            <a class="links" href="iframes.html">Iframes example</a>
+          </li>
+          <li>
+            <a class="links" href="test.html">test</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <section>
-
-    <header class="header-padding">
+      <header class="header-padding">
         <h1>Login Page</h1>
-    </header>
+      </header>
 
-
-    <!-- placeholder replaces, value adds on-->
-    <section>
+      <!-- placeholder replaces, value adds on-->
+      <section>
         <form action="" method="">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="First name" />
-            <br>
-            <br>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="First name" />
+          <br />
+          <br />
 
-            <p>password</p>
-            <input type="password" id="password" name="password" placeholder="Password" />
-            
-            <p>email</p>
-            <input type="email" name="" id="">
-            <br>
-            <br>
-            <input type="submit" />
-            <input type="reset">
-            <br>
-            <br>
-            <p>end of form</p>
+          <p>password</p>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+          />
+
+          <p>email</p>
+          <input type="email" name="" id="" />
+          <br />
+          <br />
+          <input type="submit" />
+          <input type="reset" />
+          <br />
+          <br />
+          <p>end of form</p>
         </form>
 
-
-        <hr>
+        <hr />
         <input type="date" /><br />
         <hr />
         <span>Age range:</span><input type="range" /><br />
@@ -91,38 +94,41 @@
         <span>Upload Docs:</span><input type="file" /><br />
         <hr />
         <span>What do you eat? (Select multiple):</span><br />
-        <input type="checkbox" name="apple" id="apple" value="apple"/><br />
-        <input type="checkbox" name="orange" id="orange" value="orange"/><br />
+        <input type="checkbox" name="apple" id="apple" value="apple" /><br />
+        <input type="checkbox" name="orange" id="orange" value="orange" /><br />
         <hr />
         <span>Pls select ur coding language:</span><br />
-        <input type="radio" name="coding" id="Javascript" value="Javascaript" />Javascript<br />
-        <input type="radio" name="coding" id="C++" value="C++"/>C++<br />
+        <input
+          type="radio"
+          name="coding"
+          id="Javascript"
+          value="Javascaript"
+        />Javascript<br />
+        <input type="radio" name="coding" id="C++" value="C++" />C++<br />
 
         <hr />
         <span>Pls select 1 or 2(does not work for checkboxes):</span><br />
-        <input type="radio" name="a" id="1" value="1"/>1<br />
-        <input type="radio" name="a" id="2" value="2"/>2<br />
+        <input type="radio" name="a" id="1" value="1" />1<br />
+        <input type="radio" name="a" id="2" value="2" />2<br />
         <hr />
         <select name="language" id="">
-            <option value="javascript"></option>
-            <option value="python"></option>
-            <option value="java"></option>
+          <option value="javascript"></option>
+          <option value="python"></option>
+          <option value="java"></option>
         </select>
-        <br>
-        <br>
+        <br />
+        <br />
+      </section>
 
-    </section>
-
-    <section>
+      <section>
         <form>
-            <!--Wrapper for javascript???????????-->
-            <input type="submit" />
+          <!--Wrapper for javascript???????????-->
+          <input type="submit" />
         </form>
         <hr />
-        <textarea rows="10" cols="100">
-Enter a paragraph</textarea>
+        <textarea rows="10" cols="100">Enter a paragraph</textarea>
         <hr />
+      </section>
     </section>
-</body>
-
+  </body>
 </html>
